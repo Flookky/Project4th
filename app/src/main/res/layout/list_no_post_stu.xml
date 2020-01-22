@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="4dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list_item_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Title: "
+            android:textColor="@color/grey"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textPostTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="TitlePost"
+            android:textColor="@color/black1"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_alignLeft="@+id/textPostTitle"
+            android:layout_alignStart="@+id/textPostTitle"
+            android:layout_below="@+id/textPostTitle"
+            android:text="Date: "
+            android:textColor="@color/grey"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="35dp"
+            android:layout_alignLeft="@+id/textPostTitle"
+            android:layout_alignStart="@+id/textPostTitle"
+            android:layout_below="@+id/textPostTitle"
+            android:text="Date"
+            android:textColor="@color/grey"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textDate"
+            android:layout_alignStart="@+id/textDate"
+            android:layout_below="@+id/textDate"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="70dp"
+            android:paddingRight="10dp"
+            android:text="Content: "
+            android:textColor="@color/grey"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textDate"
+            android:layout_alignStart="@+id/textDate"
+            android:layout_below="@+id/textDate"
+            android:paddingLeft="55dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="70dp"
+            android:text="Press your post here"
+            android:textColor="@color/grey2"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

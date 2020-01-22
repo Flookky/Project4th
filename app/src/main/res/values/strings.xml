@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Online Classroom</string>
+
+    <!--Sign Up & Sign in Activity-->
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="enter_user">Enter your username</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="enter_repassword">Enter your repassword</string>
+    <string name="enter_current_password">Enter your current password</string>
+    <string name="enter_new_password">Enter your new password</string>
+    <string name="confirm_password">Confirm your new password</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="register_account">Register Account</string>
+    <string name="Post">Post</string>
+    <string name="Announcement">Announcement</string>
+    <string name="Liststudents">List of Students</string>
+    <string name="CreatePost">CreatePost</string>
+    <string name="CreateAnnouncement">CreateAnnouncement</string>
+    <string name="sign_in">Sign In</string>
+    <string name="Camera_Login">Camera Login</string>
+    <string name="google_maps_key">AIzaSyC3amAeQHd2PS4_lprxN72-qme83dqXHj8</string>
+    <string name="make_an_order">Make an order</string>
+    <string name="dialog_title">Set Eneble or Disable Questions for Students</string>
+    <string name="dialog_location">Set Eneble or Disable Location Base for Students</string>
+    <string name="dialog_assignment">Set Eneble or Disable Assignment for Students</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+
+    <string-array name="shopping_item">
+        <item>Onion</item>
+        <item>Sausage</item>
+        <item>Milk</item>
+        <item>Garlic</item>
+        <item>Beef</item>
+        <item>Veggies</item>
+        <item>Olive</item>
+        <item>Cheese</item>
+        <item>Tuna</item>
+        <item>Mushrooms</item>
+    </string-array>
+
+    <string name="country_prompt">Choose a country</string>
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <!-- Teacher & Student Activity -->
+    <string name="search_subject">Search subject name....</string>
+
+    <string name="subject_names">Subject Names</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <!-- Navigation Bar -->
+    <string name="username">Username:</string>
+    <string name="bracket_left">(</string>
+    <string name="bracket_right">)</string>
+    <string name="name">Name:</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="home">Home</string>
+    <string name="courses">Courses</string>
+    <string name="changepw">Change Password</string>
+    <string name="deleteaccount">Delete Account</string>
+    <string name="logout">Sign Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Dialog: add subject CourseFragment -->
+    <string name="add_your_subject">ADD A NEW SUBJECT</string>
+    <string name="enter_your_subject_id">Enter new subject id</string>
+    <string name="enter_your_subject_name">Enter new subject name</string>
+
+    <!-- Dialog: delete subject CourseFragment -->
+    <string name="del_your_subject">DELETE SUBJECT</string>
+    <string name="confirm_to_del">Do you want to delete this subject ?</string>
+
+    <!-- Dialog: delete post PostActivity -->
+    <string name="del_your_post">DELETE POST</string>
+    <string name="confirm_to_del_post">Do you want to delete this post ?</string>
+
+    <string name="del_your_comment">DELETE COMMENT</string>
+    <string name="confirm_to_del_comment">Do you want to delete this comment ?</string>
+
+    <!-- AssignActivity Teacher -->
+    <string name="search_assign">Search assignment name....</string>
+    <!-- Dialog: add subject CourseFragment -->
+    <string name="add_new_assign">ADD A NEW ASSIGNMENT</string>
+    <string name="enter_new_assign">Enter new assignment</string>
+    <!-- Dialog: delete assignment -->
+    <string name="del_assign">DELETE ASSIGNMENT</string>
+    <string name="confirm_to_del_assign">Do you want to delete this assignment ?</string>
+
+    <!-- Bottom sheet: AssignActivity Teacher -->
+    <string name="select_menu">SELECT MENU</string>
+    <string name="assignment">Assignment</string>
+    <string name="create_assignment">CREATE ASSIGNMENT</string>
+    <string name="edit_assignment">EDIT ASSIGNMENT</string>
+    <string name="setlocation">STATUS LOCATION</string>
+    <string name="check_score">CHECK SCORES</string>
+    <string name="delete_assignment">DELETE ASSIGNMENT</string>
+
+
+    <!-- AddExamsActivity Teacher -->
+
+    <string name="add_quest">Add Question</string>
+    <string name="choice">Choice</string>
+    <string name="truefalse">TrueFalse</string>
+    <string name="write">Write</string>
+
+    <string name="enter_quest">Enter a question</string>
+    <string name="enter_ans">Enter an answer</string>
+
+    <string name="space">Please select type of questions</string>
+    <string name="submit">SUBMIT</string>
+    <string name="no">No.</string>
+    <string name="semi">:</string>
+
+    <string name="save_success">Save successfully</string>
+
+    <string name="edit_quest">Edit Question</string>
+
+    <!-- CheckScoreActivity Teacher -->
+    <string name="score">Score</string>
+    <string name="search_student_id">Search student ID or Name....</string>
+    <string name="chk_score">Check Score</string>
+
+    <!-- StudentAssignmentActivity Teacher -->
+    <string name="stu_assign_space">No Question in this Assignment</string>
+    <string name="question">Question</string>
+
+    <!-- Dialog: delete no. question -->
+    <string name="del_no_quest">DELETE QUESTION</string>
+    <string name="confirm_to_del_no">Do you want to delete this question ?</string>
+
+    <!-- Edit No. Question Activity -->
+    <string name="search_no_quest">Search No. or Question....</string>
+    
+    <string name="add_username_cameralogin">Enter your name</string>
+    <string name="hint_username_cameralogin">Fill your name</string>
+
+</resources>

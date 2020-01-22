@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_background"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Create LineGraph"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="Total of subject"
+                android:textSize="17dp"/>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="80dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+            >
+
+                <TextView
+                    android:id="@+id/subjecttxt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Press SubjectID 1"
+                    android:layout_marginRight="100dp"
+                    android:textSize="17dp"/>
+
+                <EditText
+                    android:id="@+id/subject1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_assign_layout"
+                    android:backgroundTint="@color/grey6"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:hint="Subject ID 1"
+                    />
+
+                <TextView
+                    android:id="@+id/subjecttxt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Press SubjectID 2"
+                    android:layout_marginRight="135dp"
+                    android:textSize="17dp"/>
+
+                <EditText
+                    android:id="@+id/subject2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_assign_layout"
+                    android:backgroundTint="@color/grey6"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:hint="SubjectID 2"
+                    />
+
+                <TextView
+                    android:id="@+id/subjecttxt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Press SubjectID 3"
+                    android:layout_marginRight="130dp"
+                    android:textSize="17dp"/>
+
+                <EditText
+                    android:id="@+id/subject3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_assign_layout"
+                    android:backgroundTint="@color/grey6"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:hint="SubjectID 3"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:text="Do you want to create"
+                android:textStyle="italic"
+                android:textSize="17dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnCreateGraph"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="CreateGraph"
+                android:textColor="@color/black"
+
+            />
+
+            <ImageButton
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/search_btn"
+                android:backgroundTint="@color/grey6"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:textColor="@color/white"
+                app:srcCompat="@drawable/ic_cancel" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

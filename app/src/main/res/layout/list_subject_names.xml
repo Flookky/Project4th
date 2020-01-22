@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="4dp">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_item_subject_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/subID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="SubjectID: "
+        android:textColor="@color/grey2"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textSubjectId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:text="58010252"
+        android:textColor="@color/grey2"
+        android:textStyle="bold"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/subName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/subID"
+        android:paddingTop="5dp"
+        android:text="Subject: "
+        android:textColor="@color/grey2"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/subID"
+        android:layout_alignStart="@+id/subID"
+        android:layout_below="@+id/textSubjectId"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="55dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="OBJECT-ORIENTED PROGRAMMING"
+        android:textColor="@color/grey2"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/subName"
+        android:layout_alignStart="@+id/subName"
+        android:layout_below="@+id/subName"
+        android:paddingTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Date: "
+        android:textColor="@color/grey"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/subName"
+        android:layout_alignStart="@+id/subName"
+        android:layout_below="@+id/subName"
+        android:paddingTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="10/09/1996 "
+        android:textColor="@color/grey"
+        android:textSize="12dp" />
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_trash"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground" />
+
+
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
