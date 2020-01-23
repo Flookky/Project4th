@@ -340,6 +340,7 @@ public class TeacherEachPost extends Activity {
         final StorageReference ref1 = storageRef.child(subjectName);
         final StorageReference ref2 = storageRef1.child(subjectName);
 
+        //Check Image from Firebase Storage
         ref_2.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
